@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 public class Run {
 	public void run() {
@@ -50,8 +49,10 @@ public class Run {
 	
 	
 	private void initializeGame() {
-		// TODO Auto-generated method stub
-		
+		Board board = new Board();
+		Player p1 = new Player();
+		Player p2 = new AI();
+		//Player p2 = new Player();
 	}
 
 	private void draw(List<Set> sets, List<Tile> hand) {

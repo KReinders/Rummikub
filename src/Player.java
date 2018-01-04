@@ -1,9 +1,8 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
-	private List<Tile> hand;
+	public List<Tile> hand = new ArrayList<Tile>();
 	
-	public Player(List<Tile> hand){
-		this.hand = hand;
-	}
+	public Player(){}
 }
